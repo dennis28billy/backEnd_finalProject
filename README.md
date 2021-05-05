@@ -6,7 +6,8 @@
 
 5 Mei 2021 - Penambahan serta pengaturan folder dan file, integrasi firebase dan router serta styling untuk homepage dan login
 
-Note : Referensi code dari exercise-exercise di kelas serta dari internet
+##### Note : Referensi code dari exercise-exercise di kelas serta dari internet
+
 ----------------------------------------------------------------
 
 # Getting Started with Create React App
