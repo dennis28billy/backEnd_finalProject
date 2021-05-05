@@ -3,6 +3,7 @@
 ## Final Project 
 ### Commit :
 2 Mei 2021 - Inisialisasi
+
 5 Mei 2021 - Penambahan serta pengaturan folder dan file, integrasi firebase dan router serta styling untuk homepage dan login
 
 Note : Referensi code dari exercise-exercise di kelas serta dari internet
