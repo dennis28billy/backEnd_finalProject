@@ -6,6 +6,8 @@
 
 5 Mei 2021 - Penambahan serta pengaturan folder dan file, integrasi firebase dan router serta styling untuk homepage dan login
 
+8 Mei 2021 - Penambahan page Register(+styling) dan menambahkan button register pada halaman login beserta navigasi.
+
 ##### Note : Referensi code dari exercise-exercise di kelas serta dari internet
 
 ----------------------------------------------------------------
