@@ -95,7 +95,7 @@ const Homepage = () => {
                             <br />
                             <Button onClick={handleSubmit} text={button} className="btn btn-success form-control"/>
                             {
-                                button === 'Update' && <Button onClick={resetForm} text="Cancel Update" className="btn btn-secondary form-control "/>
+                                button === 'Update' && <Button onClick={resetForm} text="Cancel Update" className="btn btn-secondary form-control"/>
                             }
                         </div >
                     </div>

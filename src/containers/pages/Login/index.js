@@ -13,17 +13,20 @@ const LoginFirebase = () => {
 
   let history = useHistory();
 
-  const handleSubmit = () => {
+  const handleLogin = () => {
     firebase
     .auth()
     .signInWithEmailAndPassword(email, password)
     .then((res) => {
-        history.push("/dashboardFirebase");
+        history.push("/homepage");
       })
     .catch((error) => {
         console.log("Error", error);
      });
-    
+  };
+
+  const handleRegister = () => {
+    history.push("/register");
   };
 
   return (
@@ -53,13 +56,16 @@ const LoginFirebase = () => {
                 onChange={(event) => setPassword(event.target.value)}
               />
             </div>
-              
               <br />
               <Button 
-              type = "submit"
-              onClick={handleSubmit} 
-              text="Submit" 
-              className="w-100 btn btn-md btn-primary"/>
+              onClick={handleLogin} 
+              text="Log in" 
+              className="w-100 btn btn-md btn-primary mt-3"/>
+
+              <Button 
+              onClick={handleRegister} 
+              text="Register" 
+              className="w-100 btn btn-md btn-secondary mt-2"/>
         </div>
       </div>
       <NavbarFooter/>
