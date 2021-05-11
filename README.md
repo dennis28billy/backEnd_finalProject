@@ -8,6 +8,8 @@
 
 8 Mei 2021 - Penambahan page Register(+styling) dan menambahkan button register pada halaman login beserta navigasi.
 
+11 Mei 2021 - Perbaikan homepage(+integrasi prettier pada code utk mempermudah)
+
 ##### Note : Referensi code dari exercise-exercise di kelas serta dari internet
 
 ----------------------------------------------------------------
