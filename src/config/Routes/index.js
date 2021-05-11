@@ -4,7 +4,6 @@ import Homepage from "../../containers/pages/Homepage";
 import Login from "../../containers/pages/Login";
 import Register from "../../containers/pages/Register";
 
-
 const Routes = () => {
   return (
     <Router>
